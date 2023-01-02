@@ -1,0 +1,22 @@
+{
+  "name": "grammy-conversations-external-reply",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@grammyjs/conversations": "^1.1.0",
+    "@types/node": "^18.11.18",
+    "dotenv": "^16.0.3",
+    "grammy": "^1.12.5"
+  }
+}
